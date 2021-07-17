@@ -27,7 +27,7 @@
 
 리액트를 사용할 때, 여러개의 컴포넌트에 걸쳐서 데이터를 내리는 상황이 왔을 때 어떻게 하는지? 
 
-"부모-자식 관계에서 여러 데이터를 주고 받을 일이 많다면 Context API, 부모-자식 관계와 관련 없이 데이터를 주고 받아야 한다면 Store API 사용하기. Context API는 되도록 최소한으로 쓰는 게 좋은 것 같음."
+A. "부모-자식 관계에서 여러 데이터를 주고 받을 일이 많다면 Context API, 부모-자식 관계와 관련 없이 데이터를 주고 받아야 한다면 Store API 사용하기. Context API는 되도록 최소한으로 쓰는 게 좋은 것 같음."
 <br/>
 <br/>
 
@@ -35,13 +35,13 @@
 
 도입이 어렵다는 이야기를 보았음
 
-"작년까지 좀 어려움이 있었으나, 2020년 7월 이후([Svelte <3 TypeScript](https://svelte.dev/blog/svelte-and-typescript))에 많이 좋아짐." 
+A. "작년까지 좀 어려움이 있었으나, 2020년 7월 이후([Svelte <3 TypeScript](https://svelte.dev/blog/svelte-and-typescript))에 많이 좋아짐." 
 <br/>
 <br/>
 
 **Q. 와닿을 만한 단점이 있었는지?**  
 
-"vscode + svelte + eslint + prettier + typescript 조합에서 문제가 안 생기게 하는데 어려움을 겪었음. 하지만 조합을 잘 찾아서 괜찮음"
+A. "vscode + svelte + eslint + prettier + typescript 조합에서 문제가 안 생기게 하는데 어려움을 겪었음. 하지만 조합을 잘 찾아서 괜찮음"
 
 
 
