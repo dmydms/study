@@ -1,6 +1,5 @@
-
-## We bear bears 1-1
 **2021-08-17**
+## We bear bears 1-1
 
 - Ice bear <u>meant to do</u> that
   아이스베어는 일부러 그랬다
