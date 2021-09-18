@@ -1,27 +1,12 @@
 h, m = [int(n) for n in input().split(' ')]
 
-# todo:
-# 1. h == 0, m < 45 일 때,
-# 2. m == 0 일 때, 
-# 3. m < 45 일 때, 
-# 4. 45 <= m < 60 일 때 
+if m > 44: 
+    print(h, m - 45)
+elif m <= 44 and h >= 1: 
+    print(h - 1, m + 15)
+else: 
+    print(23, m + 15)
 
-if h == 0 and m > 45: 
-    h = 0
-    m = m - 45
-
-elif h == 0 and m < 45: 
-    h = 23
-    m = 60 - (45 - m)
-
-elif m == 0:
-    h -= 1
-
-elif m < 45:
-    h -= 1
-    m = 60 - (45 - m)
-
-else:
-    m -= 45
-
-print(f'{h} {m}')
+# Q. 왜 24의 나머지를 구하지?
+# h, m = map(int, input().split())
+# print((h+(m-45)//60)%24, (m-45)%60)
