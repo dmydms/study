@@ -3,9 +3,7 @@
 # python3이 아니라 python2 로 실행함 
 # python3에서 실행하는게 목적이였기 때문에 또 다시 에러를 마주쳤을 때 찾아보기로 함
 
-def calc_sum(a, b): 
-    return a + b
 
-a, b = input().split(' ')
+a, b = [int(n) for n in input().split(' ')]
 
-print(calc_sum(int(a), int(b)))
+print(int(a) + int(b))

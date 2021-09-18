@@ -1,6 +1,3 @@
-def calc_difference(a: int, b: int):
-    return a - b
+a, b = [int(n) for n in input().split(' ')]
 
-a, b = input().split(' ')
-
-print(calc_difference(int(a), int(b)))
+print(a - b)
