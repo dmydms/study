@@ -24,6 +24,16 @@ const plays = {
 }
 
 function statement(invoice, plays) {
+    let result = `Statement for ${invoice.customer}\n`;
+    for (let perf of invoice.performances) {
+        // print line for this order
+        result += `  ${playFor(perf).name}: ${usd(amountFor(perf))} (${perf.audience} seats)\n`;
+    }
+
+    result += `Amount awed is ${usd(totalAmount())}\n`;
+    result += `You earned ${totalVolumeCredits()} credits\n`;
+    return result;
+
     function amountFor(aPerformance) {
         let result = 0;
         switch (playFor(aPerformance).type) {
@@ -65,21 +75,21 @@ function statement(invoice, plays) {
         }).format(aNumber / 100)
     }
 
-    let totalAmount = 0;
-    let volumeCredits = 0;
-    let result = `Statement for ${invoice.customer}\n`;
-    
-    for (let perf of invoice.performances) {
-        volumeCredits += volumeCreditsFor(perf)
+    function totalVolumeCredits() {
+        let volumeCredits = 0;
+        for (let perf of invoice.performances) {
+            volumeCredits += volumeCreditsFor(perf)
+        }
+        return volumeCredits
+    } 
 
-        // print line for this order
-        result += `  ${playFor(perf).name}: ${usd(amountFor(perf))} (${perf.audience} seats)\n`;
-        totalAmount += amountFor(perf);
+    function totalAmount() {
+        let result = 0;
+        for (let perf of invoice.performances) {
+            result += amountFor(perf);
+        }
+        return result;
     }
-
-    result += `Amount awed is ${usd(totalAmount)}\n`;
-    result += `You earned ${volumeCredits} credits\n`;
-    return result;
 }
 
 console.log(statement(invoices[0], plays))
