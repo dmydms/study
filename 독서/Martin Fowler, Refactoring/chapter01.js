@@ -71,7 +71,6 @@ function statement(invoice, plays) {
     
     for (let perf of invoice.performances) {
         volumeCredits += volumeCreditsFor(perf)
-        if ("comedy" === playFor(perf).type) volumeCredits += Math.floor(perf.audience / 5);
 
         // print line for this order
         result += `  ${playFor(perf).name}: ${usd(amountFor(perf))} (${perf.audience} seats)\n`;
