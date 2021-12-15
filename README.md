@@ -8,4 +8,4 @@
 
 - [번역 🔠](https://github.com/dmydms/study/tree/main/번역)
 - [독서 📚](https://github.com/dmydms/study/tree/main/독서)
-- [기타 🎸(ㅎㅎ)](https://github.com/dmydms/study/tree/main/기타)
+- [기타 🎸](https://github.com/dmydms/study/tree/main/기타)
