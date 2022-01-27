@@ -1,6 +1,7 @@
-words = input().split() 
+# split(), split(' ') 차이?
+# a = ' hi howru '
+# split(): ['hi', 'howru']
+# split(' '): ['', 'hi', 'howru', '']
 
-print(len(words))
+print(len(input().strip().split()))
 
-# Q. 아래와 같이 작성했을 때, 왜 공백만 입력하면 0이 아니라 1일까?
-# words = input().strip().split() 
