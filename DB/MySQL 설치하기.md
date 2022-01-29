@@ -30,7 +30,7 @@
         - `-u root`의 shorthand
         - User for login if not current user.
     - `-p` 
-        - Password to use when connecting to server. If password is
+        - Password to use whㅌen connecting to server. If password is
                       not given it's asked from the tty.
 
 8. ``` SQL
@@ -66,9 +66,7 @@
 
 ----- 
 
-<br/>
-
-**참고 문서**  
+### 참고 문서
 cf. MinsangK(twt. [@minsangk](https://twitter.com/minsangk))님 - Backend Pracktice / Tutorial 1. 환경 설정  
 cf. https://dev.mysql.com/doc/  
 cf. https://dalya-tech.tistory.com/37
