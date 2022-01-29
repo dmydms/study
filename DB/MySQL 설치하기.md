@@ -20,7 +20,7 @@
         - `brew services stop mysql`
         - `mysql.server stop`
 6. `mysql_secure_installation`
-    - 보안 설정.
+    - [보안 설정.](https://dev.mysql.com/doc/refman/8.0/en/mysql-secure-installation.html)
         - You can set a password for root accounts.
         - You can remove root accounts that are accessible from outside the local host.
         - You can remove anonymous-user accounts.
@@ -52,6 +52,9 @@
         #
         # 💡 해결 방법:
         # 호스트가 '%'인 USER를 새로 생성.
+        # 
+        # 📝 참고 문서:
+        # https://stackoverflow.com/questions/10823854/using-for-host-when-creating-a-mysql-user
 
     # 권한 지정 flush.
     FLUSH PRIVILEGES;
