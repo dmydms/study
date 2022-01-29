@@ -9,7 +9,7 @@
 2. `brew update`
     - [ ] TODO(question): 이 과정에서 꼭 해야하는가?
     - [How do I update my local packages?](https://docs.brew.sh/FAQ#how-do-i-update-my-local-packages)
-    - Update local packages. First update all package definitions (formulae) and Homebrew itself.
+        - Update local packages. First update all package definitions (formulae) and Homebrew itself.
 3. `brew install mysql`
     - MySQL 설치
 4. `mysql --version`
