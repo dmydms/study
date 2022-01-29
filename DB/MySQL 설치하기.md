@@ -7,7 +7,7 @@
     - mysql 다른 버전이 동작하고 있으면 정지시키기.
         - `brew services stop mysql`
 2. `brew update`
-    - [ ] TODO: 꼭 해야하는가? 왜 하는가? 
+    - [ ] TODO: 이 과정에서 꼭 해야하는가?
     - [Homebrew official docs](https://docs.brew.sh/FAQ)
     - Update local packages. First update all package definitions (formulae) and Homebrew itself.
 3. `brew install mysql`
