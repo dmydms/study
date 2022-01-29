@@ -59,8 +59,13 @@
     # DB 추가.
     CREATE DATABASE pabp;
     ```
+<br/>
 
-참고 문서  
+----- 
+
+<br/>
+
+**참고 문서**  
 cf. MinsangK(twt. [@minsangk](https://twitter.com/minsangk))님 - Backend Pracktice / Tutorial 1. 환경 설정  
 cf. https://dev.mysql.com/doc/  
 cf. https://dalya-tech.tistory.com/37
