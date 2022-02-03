@@ -62,11 +62,11 @@
     # DB 추가.
     CREATE DATABASE pabp;
     ```
-<br/>
 
------ 
+-----
 
-### 참고 문서
-cf. MinsangK(twt. [@minsangk](https://twitter.com/minsangk))님 - Backend Pracktice / Tutorial 1. 환경 설정  
+## 참고 문서
+
+cf. MinsangK(twt. [@minsangk](https://twitter.com/minsangk))님 - [Backend Pracktice / Tutorial 1. 환경 설정](https://minsangk.notion.site/Tutorial-1-dbdfec1c1d4d41ea9a2537e5ae9a2351)  
 cf. https://dev.mysql.com/doc/  
 cf. https://dalya-tech.tistory.com/37
