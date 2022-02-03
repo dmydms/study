@@ -14,7 +14,7 @@
 
 - 만약 `onMount` 콜백 함수가 함수를 리턴한다면, 해당 함수는 컴포넌트가 소멸할 때 호출될 것이다.  
 
-## 질문 <a id="q1"></a>
+## [질문](#q1)
 
 - Lifecycle functions must be called while the component is initialising so that the callback is bound to the component instance — not (say) in a setTimeout.
   - 해석 및 전달하고자 하는 의미를 정확하게 모르겠음.
