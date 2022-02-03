@@ -13,7 +13,7 @@
   - React - const [count, setCount] = useState(0)
   - Svelte - const count = 0 (`reactive declaration` ($)을 사용하면 리액트랑 비교도 안되게 간결하게 코드를 작성할 수 있는 듯)
 - Top-level element가 한개일 필요가 없음
-  - React에서는 컴포넌트마다 한개의 태그(<>, \<div\> .. )가 여러개의 태그를 감싸줘야하는 규칙이 있지만, svelte는 그렇지 않음
+  - React에서는 컴포넌트마다 한개의 태그(`<>`, `<div>` .. )가 여러개의 태그를 감싸줘야하는 규칙이 있지만, svelte는 그렇지 않음
 
 - virtual DOM 이 없음
   - 명확하게 뭐가 좋은지 크게 와닿진 않지만, React의 경우 virtual DOM이 있어서 virtual DOM 자체를 알아야한다는 것 자체도 짐처럼 느껴짐
@@ -27,21 +27,13 @@
 
 리액트를 사용할 때, 여러개의 컴포넌트에 걸쳐서 데이터를 내리는 상황이 왔을 때 어떻게 하는지? 
 
-A. "부모-자식 관계에서 여러 데이터를 주고 받을 일이 많다면 Context API, 부모-자식 관계와 관련 없이 데이터를 주고 받아야 한다면 Store API 사용하기. Context API는 되도록 최소한으로 쓰는 게 좋은 것 같음."
-<br/>
-<br/>
+A. "부모-자식 관계에서 여러 데이터를 주고 받을 일이 많다면 Context API, 부모-자식 관계와 관련 없이 데이터를 주고 받아야 한다면 Store API 사용하기. Context API는 되도록 최소한으로 쓰는 게 좋은 것 같음."  
 
 **Q, Type Script와 같은 타입 체크 도구를 어떻게 쓰는지?**  
 
 도입이 어렵다는 이야기를 보았음
 
-A. "작년까지 좀 어려움이 있었으나, 2020년 7월 이후([Svelte <3 TypeScript](https://svelte.dev/blog/svelte-and-typescript))에 많이 좋아짐." 
-<br/>
-<br/>
-
+A. "작년까지 좀 어려움이 있었으나, 2020년 7월 이후([Svelte <3 TypeScript](https://svelte.dev/blog/svelte-and-typescript))에 많이 좋아짐."  
 **Q. 와닿을 만한 단점이 있었는지?**  
 
-A. "vscode + svelte + eslint + prettier + typescript 조합에서 문제가 안 생기게 하는데 어려움을 겪었음. 하지만 조합을 잘 찾아서 괜찮음"
-
-
-
+A. "vscode + svelte + eslint + prettier + typescript 조합에서 문제가 안 생기게 하는데 어려움을 겪었음. 하지만 조합을 잘 찾아서 괜찮음"  
