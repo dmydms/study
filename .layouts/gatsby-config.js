@@ -12,7 +12,7 @@ const siteMetadata = {
 };
 module.exports = {
   siteMetadata,
-  pathPrefix,
+  pathPrefix: `/blog`,
   flags: {
     DEV_SSR: true,
   },
