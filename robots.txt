@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://demo-foam.owenyoung.com/sitemap/sitemap-index.xml
+Host: https://demo-foam.owenyoung.com
