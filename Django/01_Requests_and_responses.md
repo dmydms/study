@@ -144,4 +144,4 @@ cf.
     - <http://localhost:8000/polls/> 접속 후, “Hello, world. You’re at the polls index.” 확인하기.
 
 **참고**
-인용구는 해석이 정확하지 않아 첨부했습니다.
+인용구는 해석이 정확하지 않아 첨부함.
