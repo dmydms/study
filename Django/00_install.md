@@ -4,7 +4,35 @@
     - production에 배포할 준비가 될 때 까지 설치하지 않아도 됨.
 
 2. Get your database running.
-    - 당분간 [SQLite](https://www.sqlite.org/index.html) 사용하기.
+    - 당분간 [SQLite](https://www.sqlite.org/index.html) 사용하기.]
+    - PostgreSQL 설치하기 ([참고 문서](https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/))
+      - `brew install postgresql`
+      (`postgres -V` 로 설치 확인.)
+      - `psql postgres` (postgresql 접속)
+      - Postgres DB Server 설정.
+
+        ```sql
+        # 유저 생성 
+        CREATE ROLE newUser WITH LOGIN PASSWORD ‘password’;
+
+        # role 변경 
+        ALTER ROLE newUser CREATEDB;
+
+        # DB 종료
+        \q
+
+        # 새로 생성한 유저로 접속 
+        psql postgres -U newuser
+        
+        # DB 생성하기
+        CREATE DATABASE database_name 
+
+        # DB 리스트 확인하기 
+        \ l
+
+        # port 정보 확인하기 (Django `settings.py`에 넣을 때 확인하기 위해서.)
+        \conninfo
+        ```
 
 3. Django 설치
 
