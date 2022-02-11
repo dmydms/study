@@ -6,10 +6,13 @@
 - [Reading](https://github.com/dmydms/study/tree/main/독서)
 - [etc.](https://github.com/dmydms/study/tree/main/기타)
 
-## Front end
+## Front-end
 
 - [Svelte](https://github.com/dmydms/study/tree/main/Svelte)
 - [Python](https://github.com/dmydms/study/tree/main/Python)
+
+## Back-end
+- [Django](https://github.com/dmydms/study/tree/main/Django)
 
 ## DB
 
