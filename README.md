@@ -7,9 +7,11 @@
 - [etc.](https://github.com/dmydms/study/tree/main/기타)
 
 ## Front-end
+
 - [Svelte](https://github.com/dmydms/study/tree/main/Svelte)
 
 ## Back-end
+
 - [Django](https://github.com/dmydms/study/tree/main/Django)
 
 ## DB
@@ -17,5 +19,6 @@
 - [DB](https://github.com/dmydms/study/tree/main/DB)
 
 ## Language
+
 - [Python](https://github.com/dmydms/study/tree/main/Python)
 - [Rust](https://github.com/dmydms/study/tree/main/rust)
